@@ -16,7 +16,7 @@
                 <div>
                 <div class="stats shadow">
                     <div class="stat">
-                      <div class="stat-value">$45000</div>
+                      <div class="stat-value">$<span id="account-balance">45000</span></div>
                       <div class="stat-desc">Available Balance</div>
                     </div>
                   </div>
@@ -39,16 +39,16 @@
                     <label class="label">
                       <span class="label-text">Amount</span>
                     </label>
-                    <input type="text" placeholder="Write Your Amount" class="input input-bordered" required />
+                    <input id="add-money-input" type="text" placeholder="Your Amount" class="input input-bordered" required />
                   </div>
                   <div class="form-control">
                     <label class="label">
                       <span class="label-text">Pin</span>
                     </label>
-                    <input type="password" placeholder="password" class="input input-bordered" autocomplete="off" required />
+                    <input id="pin-input" type="password" placeholder="Your Pin" class="input input-bordered" autocomplete="off" required />
                   </div>
                   <div class="form-control mt-6">
-                    <button class="btn btn-primary">Add Money</button>
+                    <button id="btn-add" class="btn btn-primary">Add Money</button>
                   </div>
                 </form>
               </div>
