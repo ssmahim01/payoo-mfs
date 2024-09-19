@@ -5,12 +5,11 @@ document.getElementById('btn-login').addEventListener('click', function(event){
 
     const phoneNumber = document.getElementById('phone-num').value;
     const pinNumber = document.getElementById('pin-number').value;
-    console.log(phoneNumber, pinNumber);
 
     // Normal way and should not use that
 
     if(pinNumber === '1234'){
-        window.location.href = '/home.html';
+        window.location.href = '/index1.html';
     }
     
     else{
