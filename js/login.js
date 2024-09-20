@@ -9,7 +9,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
     // Normal way and should not use that
 
     if(pinNumber === '1234'){
-        window.location.href = '/index1.html';
+        window.location.href = 'https://ssmahim01.github.io/payoo-mfs/index1.html';
     }
     
     else{
